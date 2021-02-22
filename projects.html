@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel = "stylesheet" href="p-style.css">
+    <aside class="topNav nav-blue" id="topNav">
+        <div class = "container navBar">
+          <a href="home.html">
+            <h2>
+              Home
+            </h2>
+          </a>
+          <a href="mailto:john.wright105048@gmail.com?Subject=Hi%20John">
+              <h2>
+                Email
+              </h2>
+          </a>
+          <a href="John Wright CV.pdf">
+              <h2>
+                CV
+              </h2>
+          </a>
+          </div>
+      </aside> 
+      <section id="PiWS" class="PiWS"> 
+        <div class="container">
+        </div>
+          <h1 class="text-center">Raspberry Pi</h1>
+          <h2>Raspberry Pi Weather Station</h2>
+          <p>This is my first project I made when getting a Raspberry Pi. To get used to the terminal and commands that come with it I made a weather station. This weather station shows a live map of the surrounding area. I used a git clone command in the terminal to get an external library to use. I encountered some issues a long the way however I managed to fix them. One issue that I came across was that I was missing a module meaning that I couldn't start the project. How I solved this was to search the web and found the solution to just check if I has the module. I later discovered that I didn't have the module so therefore I used 'npm install express' this then meant that I could start up the project. Another issue that I came across was that the weather map wouldnt load my position, this was a simple fix as I just restated my project inputted my latitude and longitude and got it to work </p>
+          <div class="gallery">
+            <a target="_blank" href="/Pictures/WeatherStation/npm install part1.PNG">
+              <img src="/Pictures/WeatherStation/npm install part1.PNG" alt="first part after git clone" width="600" height="400">
+            </a>
+            <div class="desc">This is when I installed the package</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="/Pictures/WeatherStation/error.jpeg">
+              <img src="/Pictures/WeatherStation/error.jpeg" alt="The Error" width="600" height="400">
+            </a>
+            <div class="desc">This is where I discovered an error</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="/Pictures/WeatherStation/solution.jpeg">
+              <img src="/Pictures/WeatherStation/solution.jpeg" alt="The Solution" width="600" height="400">
+            </a>
+            <div class="desc">This is where I found out the solution and using npm install express</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="/Pictures/WeatherStation/start.jpeg">
+              <img src="/Pictures/WeatherStation/start.jpeg" alt="npm start" width="600" height="400">
+            </a>
+            <div class="desc">This is where i tested the project</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="/Pictures/WeatherStation/done.jpeg">
+              <img src="/Pictures/WeatherStation/done.jpeg" alt="Complete" width="600" height="400">
+            </a>
+            <div class="desc">This is after I started it and inputted my latitude and longitude</div>
+          </div>
+      </section>
+
+      <section id="TwitchBot" class="TwitchBot"> 
+        <div class="container">
+        </div>
+          <h1 class="text-center">Twitch Bot</h1>
+          <h2>Twitch Moderation Bot</h2>
+          <p>This was my Twitch Moderation Bot which i coded in JavaScript I coded this as a demo for a Twitch Streamer to see what they would think to a bot moderator over a human moderator. How I coded this was, I first thing I did was to create a application on the Twitch developer portal. I then created my project in vscode, the next thing I did was open a windows powershell, navigate to the folder to where the project is then type npm innit. This creates a .json file with the bots name, description, version, etc. I then downloaded yarn into my project using npm yarn. I used this to add esm then loaded this in my index file. I then added another file where I would do all the bots features, first of all I added console.log('test'). This command outputed the work test if everything worked properly which it did. I added tmi.js next. What this is, is a package that allows the bot to communicate with Twitch, I went on the documentation and copied and pasted the code to get it started as this ensures that it is setup correct. I then added tmi.js to my .json file with yarn (yarn add tmi.js). I then decided to get the OAuth token which allows my to connect to twitch. Using a url and changing parameters I got my OAuth token. I then inputted this into my code. I again typed yarn start to see if this worked which it did. I then went onto programming in my features. I will happily explain these features if i possibly get a interview with your company. </p>
+          <div class="TBgallery">
+            <a target="_blank" href="/Pictures/Twitch Bot/twitch bot connection.PNG">
+              <img src="/Pictures/Twitch Bot/twitch bot connection.PNG" alt="Complete" width="600" height="400">
+            </a>
+            <div class="desc">This is evidence that the bot connects to the channel</div>
+          </div>
+        </section>
+
+        <section id="Crypto" class="Crypto"> 
+          <div class="container">
+          </div>
+            <h1 class="text-center">Crypto Miners</h1>
+            <h2>Ethereum Crypto Miners</h2>
+            <p>These are my cryptocurrency miners which at the time of typing this they are mining Ethereum. I bought these miners intially to get into crypto mining as I didn't have any experience in this field at the time. However, now I understand more about the Blockchain and crypto mining I am undertaking the task of building my own crypro miner. This miner is going to be/is a AMD miner rather a NVIDIA like my other miners. For this I had to research what parts would be compatible as well as what graphics card has a good hashrate for its power consumption, I then researched about overclocking to try and squeeze abit more hashrate out the cards. This proved to be challenging as many people have different opinions on different cards, eventually I found a card called the RX 5700 Xt </p>
+            </div>
+          </section>
+
+          <section id="DiscordBot" class="DiscordBot"> 
+            <div class="container">
+            </div>
+              <h1 class="text-center">Discord Bot</h1>
+              <h2>Multiple Discord Bots</h2>
+              <p></p>
+              </div>
+            </section>
+  </head>

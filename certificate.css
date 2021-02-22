@@ -1,0 +1,74 @@
+body {
+    background-image: url("bckGrnd.jpg");
+    height: 95%;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    display: block;
+    margin-top: -20px;
+    font-family: "Monument Extended"
+   }
+.TopText {
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 53, 106);
+    color: black;
+    text-align: center;
+ }
+   b, strong {
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+}
+.pageHeader {
+    background-image: url();
+    height: 95%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    display: block;
+    margin-top: -20px;
+}
+.pageHeader .headerText {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+   .topNav {
+    text-align: center;
+    padding: 50px;
+   }
+   .nav-blue{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(0, 53, 106);
+   }
+   .navBar a h2 {
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    display: inline;
+    padding: 10px;
+    color: #b3b3b3;
+   }
+   .cCert {
+    text-align: center;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(91, 109, 145, 0.651);
+   }
+   .Blockchain101Cert{
+    text-align: center;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.658);
+   }
